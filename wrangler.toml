@@ -1,8 +1,7 @@
 name = "neon-hyperdrive"
 main = "src/index.ts"
-compatibility_date = "2023-10-02"
-
-node_compat = true
+compatibility_date = "2025-12-01"
+compatibility_flags = ["nodejs_compat"]
 
 [[hyperdrive]]
 binding = "NeonHyperdrive"
